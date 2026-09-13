@@ -47,7 +47,7 @@ Sensor VM → runs Wireshark + Snort
 ## What's Next
 
 - Build a vulnerability scanner to round out the defensive story with an assessment component
-- Add a SIEM (e.g., Security Onion or ELK stack) to centralize logs from Snort and pfSense
-- Simulate a real attack scenario (e.g., using Kali Linux) to test detection end-to-end
+- Add a SIEM (Security Onion or ELK stack) to centralize logs from Snort and pfSense
+- Simulate a real attack scenario (using Kali Linux) to test detection end-to-end
 
 ---
