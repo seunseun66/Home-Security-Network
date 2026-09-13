@@ -51,5 +51,3 @@ Each folder has its own README with setup steps, configuration details, and scre
 - Simulate a real attack scenario (e.g., using Kali Linux) to test detection end-to-end
 
 ---
-
-*This project is part of my ongoing journey into cybersecurity, built to strengthen my hands-on skills for internship and entry-level SOC/security analyst roles.*
