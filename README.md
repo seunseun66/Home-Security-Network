@@ -1,16 +1,53 @@
-# Home-Security-Network
-A hands-on cybersecurity lab built from scratch to practice network defense, traffic analysis, intrusion detection, and vulnerability assessment. 
+# Home Network Security Lab
 
-# Overview
-This lab simulates a small network environment where I set up and configured multiple security tools to monitor, protect, and assess a virtual network. The goal was to gain experience with the tools that are used by SOC analysts, network security engineers, and penetration testers.
+A hands-on cybersecurity lab built to practice firewall configuration, network traffic analysis, and intrusion detection. This project simulates a small network environment where I set up and configured multiple security tools to monitor and protect a virtual network — practical experience with tools used daily by SOC analysts and network security engineers.
 
-# Tools Used
-- pfSense
-- Wireshark
-- snort
-- Vulnerability scanner
+**Environment:** VirtualBox (multiple VMs simulating a WAN/LAN network)
 
-# Enviorment
-- VirtualBox
-- pfSense VM
-- Sensor VM
+---
+
+## 🧱 Lab Architecture
+
+My network has two VMs. The **pfSense VM** sits between the internet and my LAN, acting as the firewall. The **Sensor VM** connects into that LAN and runs **Wireshark** (to capture traffic) and **Snort** (to detect suspicious traffic).
+
+```
+Internet
+   │
+pfSense (firewall/gateway)
+   │
+LAN
+   │
+Sensor VM → runs Wireshark + Snort
+```
+
+---
+
+## 📂 Components
+
+| Component | Status | Description |
+|---|---|---|
+| [pfSense](./pfsense) | ✅ Complete | Firewall/gateway setup, WAN/LAN config, custom rules |
+| [Wireshark](./wireshark) | ✅ Complete | Packet capture and traffic analysis on the LAN |
+| [Snort](./snort) | ✅ Complete | IDS setup and custom detection rules |
+
+Each folder has its own README with setup steps, configuration details, and screenshots.
+
+---
+
+## 🎯 Skills Demonstrated
+
+`Network segmentation` `Firewall rule writing` `DHCP/static IP configuration` `Packet-level traffic analysis` `IDS configuration & custom rules` `Log analysis` `Linux fundamentals` `VirtualBox networking`
+
+## 🛠️ Tools & Technologies
+
+`VirtualBox` `pfSense` `Wireshark` `Snort` `Networking (TCP/IP, DHCP)` `Linux`
+
+## 🚀 What's Next
+
+- Build a vulnerability scanner to round out the defensive story with an assessment component
+- Add a SIEM (e.g., Security Onion or ELK stack) to centralize logs from Snort and pfSense
+- Simulate a real attack scenario (e.g., using Kali Linux) to test detection end-to-end
+
+---
+
+*This project is part of my ongoing journey into cybersecurity, built to strengthen my hands-on skills for internship and entry-level SOC/security analyst roles.*
