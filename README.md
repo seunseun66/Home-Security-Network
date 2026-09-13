@@ -6,9 +6,9 @@ A hands-on cybersecurity lab built to practice firewall configuration, network t
 
 ---
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
-My network has two VMs. The **pfSense VM** sits between the internet and my LAN, acting as the firewall. The **Sensor VM** connects into that LAN and runs **Wireshark** (to capture traffic) and **Snort** (to detect suspicious traffic).
+My network has two VMs. The **pfSense VM** sits between the internet and my LAN, acting as the firewall. The **Sensor VM** connects to that LAN and runs **Wireshark** (to capture traffic) and **Snort** (to detect suspicious traffic).
 
 ```
 Internet
@@ -34,15 +34,15 @@ Each folder has its own README with setup steps, configuration details, and scre
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 `Network segmentation` `Firewall rule writing` `DHCP/static IP configuration` `Packet-level traffic analysis` `IDS configuration & custom rules` `Log analysis` `Linux fundamentals` `VirtualBox networking`
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 `VirtualBox` `pfSense` `Wireshark` `Snort` `Networking (TCP/IP, DHCP)` `Linux`
 
-## 🚀 What's Next
+## What's Next
 
 - Build a vulnerability scanner to round out the defensive story with an assessment component
 - Add a SIEM (e.g., Security Onion or ELK stack) to centralize logs from Snort and pfSense
