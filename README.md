@@ -2,7 +2,9 @@
 
 A hands-on cybersecurity lab built to practice firewall configuration, network traffic analysis, and intrusion detection. This project simulates a small network environment where I set up and configured multiple security tools to monitor and protect a virtual network — practical experience with tools used daily by SOC analysts and network security engineers.
 
-**Environment:** VirtualBox (multiple VMs simulating a WAN/LAN network)
+**Environment:** 
+- pfSense VM 
+- Sensor VM
 
 ---
 
