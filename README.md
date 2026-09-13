@@ -32,7 +32,7 @@ Sensor VM → runs Wireshark + Snort
 | [Wireshark](./wireshark) | ✅ Complete | Packet capture and traffic analysis on the LAN |
 | [Snort](./snort) | ✅ Complete | IDS setup and custom detection rules |
 
-Each folder has its own README with setup steps, configuration details, and screenshots.
+
 
 ---
 
