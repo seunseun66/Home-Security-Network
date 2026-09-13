@@ -8,5 +8,6 @@
 3. Generated test traffic and confirmed Snort logged the detection.
 
 ## Demo
-https://github.com/user-attachments/assets/94ee8d52-bc18-4107-b4b8-e2f03a3c0ab7
+https://github.com/user-attachments/assets/1193f08e-0ce7-4994-8b6f-6deb8b13b873
+
 
