@@ -9,12 +9,6 @@
 4. Wrote and tested firewall rules (e.g., blocking specific ports/protocols, allowing only necessary traffic).
 5. Verified rule behavior by testing connections from the sensor VM.
 
-## Skills Demonstrated
-- Network segmentation
-- Firewall rule writing
-- DHCP / static IP configuration
-- VM networking
-
 ## Screenshots
 - Dashboard 
 <img width="1917" height="867" alt="pfSense Dashboard 1" src="https://github.com/user-attachments/assets/a703c473-6f03-44f5-bd46-39e049be76b7" />
